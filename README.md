@@ -4,3 +4,9 @@ This Website helps you to keep a eye/track on your invested Coin. It shows Curre
 <br>
 You can visit this site by clicking this [link](https://goh3r.csb.app/) 
 
+Dependencies Version:
+    ..*"axios": "0.21.1"
+    ..*"https": "1.0.0"
+    ..*"react": "17.0.2"
+    ..*"react-dom": "17.0.2"
+    ..*"react-scripts": "4.0.0"
