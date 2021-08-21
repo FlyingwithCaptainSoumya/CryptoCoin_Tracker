@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", cursive;
+  /* font-family: "Montserrat", sans-serif; */
+  /* background-color: #1a1a1c; */
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(137deg, #360033, #0b8793);
+  background-size: 400% 400%;
+
+  -webkit-animation: bggrad 30s ease infinite;
+  animation: bggrad 20s ease infinite;
+}
+
+@-webkit-keyframes bggrad {
+  0% {
+    background-position: 0% 14%;
+  }
+  50% {
+    background-position: 100% 87%;
+  }
+  100% {
+    background-position: 0% 14%;
+  }
+}
+@keyframes bggrad {
+  0% {
+    background-position: 0% 14%;
+  }
+  50% {
+    background-position: 100% 87%;
+  }
+  100% {
+    background-position: 0% 14%;
+  }
+}
+
+.heading {
+  font-family: "Satisfy", cursive;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}
+.coin_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin_search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin_text {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin_input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  /* background-image:  */
+  color: #e2e2e2;
+  font-size: 16px;
+
+  text-transform: uppercase;
+}
+
+.css-selector {
+  background: linear-gradient(216deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+  background-size: 800% 800%;
+
+  -webkit-animation: colorAnimate 19s ease infinite;
+  -moz-animation: colorAnimate 19s ease infinite;
+  -o-animation: colorAnimate 19s ease infinite;
+  animation: colorAnimate 19s ease infinite;
+}
+
+@-webkit-keyframes colorAnimate {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@-moz-keyframes colorAnimate {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@-o-keyframes colorAnimate {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+@keyframes colorAnimate {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+
+.Names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  margin-left: 15.5rem;
+}
